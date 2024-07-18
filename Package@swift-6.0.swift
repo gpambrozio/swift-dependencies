@@ -20,6 +20,10 @@ let package = Package(
       name: "DependenciesMacros",
       targets: ["DependenciesMacros"]
     ),
+    .library(
+        name: "DependenciesMacrosPlugin",
+        targets: ["DependenciesMacrosPlugin"]
+    ),
   ],
   dependencies: [
     .package(url: "https://github.com/pointfreeco/combine-schedulers", from: "1.0.0"),
